@@ -34,7 +34,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - **Reviews:** id, property_id, user_id, rating, comment
 - **Payments:** id, booking_id, user_id, amount, status
 
-### 🛠️ **Features Breakdown**
+### 🛠️ **Feature Breakdown**
 
 #### 1. **API Documentation**
 
