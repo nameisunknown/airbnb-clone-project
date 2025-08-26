@@ -85,5 +85,21 @@ In building this Airbnb clone project, I am prioritizing **API security** to pro
 4. **Data Encryption**
     Sensitive data, especially personal details and payment information, will be encrypted in transit (HTTPS/TLS) and at rest. This safeguards users’ private information against leaks.
 
+## CI/CD Pipelines
 
+A **CI/CD pipeline (Continuous Integration and Continuous Deployment/Delivery)** is an automated workflow that handles building, testing, and deploying my project whenever I push new code.
+
+This is important because it:
+
+- Ensures new features and bug fixes are tested automatically before release.
+- Reduces the chance of human error in deployments.
+- Speeds up development by delivering updates quickly and consistently.
+- Provides confidence that the application will run as expected in production.
+
+### Tools I can use
+
+- **GitHub Actions** – for automating tests and deployments directly from my GitHub repo.
+- **Docker** – to package the app into containers, ensuring consistent environments across development and production.
+- **Jenkins / GitLab CI** – alternatives for managing more complex CI/CD workflows.
+- **Kubernetes** (optional) – for scaling and managing containerized applications in productio
 
