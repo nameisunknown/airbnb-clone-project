@@ -72,3 +72,18 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 - **Indexing**: Implement indexes for fast retrieval of frequently accessed data.
 - **Caching**: Use caching strategies to reduce database load and improve performance.
 
+## API Security
+
+In building this Airbnb clone project, I am prioritizing **API security** to protect both users and the platform. These are the key measures I will implement:
+
+1. **Authentication**
+    Will use secure authentication mechanisms (such as JWT or OAuth) to ensure only legitimate users can access the system. This prevents unauthorized access and keeps user accounts safe.
+2. **Authorization**
+    Beyond verifying identity, I will implement role-based access control (e.g., admin, host, guest). This ensures users can only perform actions they are permitted to do, such as a guest making a booking but not editing someone else’s property.
+3. **Rate Limiting**
+    Will set request limits to prevent abuse, such as denial-of-service attacks or brute force login attempts. This also helps maintain platform performance and fairness for all users.
+4. **Data Encryption**
+    Sensitive data, especially personal details and payment information, will be encrypted in transit (HTTPS/TLS) and at rest. This safeguards users’ private information against leaks.
+
+
+
